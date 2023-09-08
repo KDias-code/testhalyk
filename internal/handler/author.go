@@ -7,7 +7,7 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"log"
 	"strconv"
-	"test/internal/entity"
+	"test/internal/domain/entity"
 	errs "test/pkg/error"
 )
 

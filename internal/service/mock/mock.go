@@ -6,10 +6,9 @@ package mock_service
 
 import (
 	context "context"
-	reflect "reflect"
-	models "test/internal/entity"
-
 	gomock "go.uber.org/mock/gomock"
+	reflect "reflect"
+	models "test/internal/domain/entity"
 )
 
 // MockAuthor is a mock of Author interface.

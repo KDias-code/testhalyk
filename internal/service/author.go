@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 	"fmt"
-	"test/internal/entity"
+	"test/internal/domain/entity"
 	"test/internal/store"
 
 	_ "github.com/lib/pq"

@@ -2,7 +2,7 @@ package service
 
 import (
 	"fmt"
-	"test/internal/entity"
+	"test/internal/domain/entity"
 	"test/internal/store"
 )
 

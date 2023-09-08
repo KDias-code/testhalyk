@@ -10,7 +10,7 @@ import (
 	"log"
 	"reflect"
 	"strings"
-	"test/internal/entity"
+	"test/internal/domain/entity"
 	customError "test/pkg/error"
 	"time"
 )

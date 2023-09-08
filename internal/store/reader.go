@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"strings"
-	"test/internal/entity"
+	"test/internal/domain/entity"
 	customError "test/pkg/error"
 
 	"github.com/jmoiron/sqlx"

@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"test/internal/entity"
+	"test/internal/domain/entity"
 	"test/internal/store"
 )
 
