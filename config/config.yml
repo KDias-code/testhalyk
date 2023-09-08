@@ -1,0 +1,17 @@
+port: ":8888"
+#
+#db:
+#    username: "postgres"
+#    password: "123"
+#    host: "localhost"
+#    port: "5433"
+#    name: "postgres"
+#    sslmode: "disable"
+
+db:
+    username: "postgres"
+    password: "123"
+    host: "postgres"
+    port: "5432"
+    name: "postgres"
+    sslmode: "disable"
