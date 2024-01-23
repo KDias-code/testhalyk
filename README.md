@@ -1,3 +1,12 @@
+SELECT 
+    s_geonims.*,
+    parent_ats.name AS parent_ats_name,
+    child_ats.name AS child_ats_name
+FROM s_geonims
+JOIN s_ats AS parent_ats ON s_geonims.parent_ats_id = parent_ats.id
+JOIN s_ats AS child_ats ON s_geonims.s_ats_id = child_ats.id;
+
+
 # Service of Library with using framework Fiber
 
 # In this project used technologys:
